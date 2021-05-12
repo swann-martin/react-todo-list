@@ -1,0 +1,25 @@
+html {
+  font-size: 62.5%;
+}
+
+$-color1: #ffc1cfff;
+$-color2: #e8ffb7ff;
+$-color3: #e2a0ffff;
+$-color4: #c4f5fcff;
+$-color5: #b7ffd8ff;
+
+body {
+  font-size: 1.6px;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, $-color2, $-color1);
+}
+
+h1 {
+  font-size: 5rem;
+  color: $-color3;
+}
